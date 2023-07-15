@@ -1,6 +1,7 @@
-
+*{margin: 0;
+padding: 0;}
 body{
-    background-color: black;
+
 }
 
 /* header section style */
@@ -12,6 +13,7 @@ body{
     background-repeat: no-repeat;
     background-size: 1200px;
     height: 100vh;
+    background-color: black;
 }
 
 .nav-container{
@@ -55,17 +57,18 @@ body{
 
 .header-content{
     text-align: center;
-    margin-top: 180px;
+    margin-top: 100px;
 }
 
 .header-content h1{
     color: #ffffff;
     font-size: 55px;
+    margin-top: 100px;
 }
 
 
 .fashion-week-btn {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
@@ -74,11 +77,12 @@ body{
 }
 
 .time-content{
+    margin-top: 30px;
     color: #ffffff;
 }
 
 .author-container{
-    margin-top: 140px;
+    margin-top: 130px;
     color: white;
 }
 
@@ -90,3 +94,83 @@ body{
 
 /* End header section style */
 
+/* start article section */
+
+.artical-maincontainer{
+
+}
+
+.artical-title{
+    text-align: center;
+    margin: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+.article-container{
+    max-width: 900px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+    gap: 25px;
+}
+
+.artical-content1{
+    background-image: url('image/when-i-open-doors-i-see-this-statement-coat-570x380.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+.artical-content2{
+    background-image: url('image/royal-ascot-hats-from-then-to-today-570x380.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+.artical-content3{
+    background-image: url('image/moisturizers-thatll-save-your-skin-570x380.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+.artical-content4{
+    background-image: url('image/the-best-year-yet-for-faux-fur-coats-570x380.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+.artical-all-content {
+    color: white;
+    padding: 30px;
+}
+
+.artical-all-content a{
+    margin-bottom: 20px;
+    color: #000000;
+    text-decoration: none;
+    background-color: #ffffff;
+    padding: 5px 20px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+.article-description{
+    margin-top: 150px;
+    letter-spacing: 1px;
+}
+
+.author-women-container{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.author-image-women{
+    border-radius: 50px;
+}
